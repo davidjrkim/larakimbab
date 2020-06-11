@@ -1,4 +1,101 @@
+@font-face {
+    font-family: "Recipekorea";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MapoPeacefull";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoPeacefullA.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #fc81d9;
+    -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.75);
+    z-index: 998;
+    display: none;
+}
+
+.logo-img {
+    width: 120px;
+    padding: 15px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    transition: transform 0.4s ease-in-out;
+}
+
+.logo-img:hover {
+    transform: scale(1.1) rotate(-10deg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    padding: 60px 80px;
+    background-color: #fc81d9;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: "MapoPeacefull";
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #f9adcb;
+}
+
+main {
+    background-color: #fd82d5;
+    z-index: -9999;
+}
+
+.comming {
+    text-align: center;
+}
+
+.comming img {
+    width: 320px;
+}
+
+.para {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 550px;
+}
+
+.para p,
+.para h1 {
+    color: white;
 }
