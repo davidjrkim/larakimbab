@@ -99,3 +99,12 @@ main {
 .para h1 {
     color: white;
 }
+
+.para a {
+    text-decoration: none;
+    color: white;
+}
+
+.para a:hover {
+    text-decoration: underline;
+}
