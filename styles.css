@@ -24,16 +24,7 @@ header {
     -moz-box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.75); */
     z-index: 998;
-}
-
-nav ul li ul {
-    display: none;
-    position: absolute;
-    width: 20%;
-}
-
-header:hover nav ul li ul {
-    display: block;
+    position: fixed;
 }
 
 .logo-img {
@@ -70,6 +61,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: block;
     padding: 60px 80px;
     background-color: #fc81d9;
     text-decoration: none;
@@ -79,12 +71,26 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f9adcb;
+    color: #ffffff91;
 }
 
-main {
-    background-color: #fd82d5;
-    z-index: -9999;
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav:hover ul li ul {
+    display: block;
+    overflow: visible;
+}
+
+nav ul li ul li {
+}
+
+nav ul li ul li a {
+    background-color: red;
+    padding: 20px 20px;
+    text-align: center;
 }
 
 .comming {
