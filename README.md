@@ -1,5 +1,7 @@
 # webSite LaraKimbab
 
-# manjijimaseyo PLZ
+manjijimaseyo PLZ
 
-https://davidjrkim.github.io/larakimbab/
+the dev of the kimbab pleace LaraKimbab
+
+<a href="https://larakimbab.com/">the website</a>
