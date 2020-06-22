@@ -117,6 +117,10 @@ header:hover .back-drop {
     width: 320px;
 }
 
+main {
+    padding-top: 150px;
+}
+
 .para {
     position: absolute;
     margin: 0 auto;
