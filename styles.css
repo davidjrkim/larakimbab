@@ -92,19 +92,30 @@ main {
     left: 0;
     right: 0;
     text-align: center;
-    top: 550px;
+    top: 450px;
 }
 
 .para p,
-.para h1 {
-    color: white;
-}
-
+.para h1,
 .para a {
-    text-decoration: none;
     color: white;
+    text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
-.para a:hover {
-    text-decoration: underline;
+.logo-max {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 20px;
+}
+
+.logo-max img {
+    width: 250px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.logo-max img:hover {
+    transform: scale(1.1) rotate(-10deg);
 }
