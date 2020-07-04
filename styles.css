@@ -119,6 +119,7 @@ header:hover .back-drop {
 
 main {
     padding-top: 150px;
+    height: 300px;
 }
 
 .para {
@@ -142,4 +143,45 @@ main {
 
 .para a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+.foot-list {
+    border-bottom: rgba(255, 255, 255, 0.4) solid 1px;
+}
+
+footer ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer ul li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.foot-info {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.foot-info p {
+    margin: 8px 0;
+    opacity: 0.4;
+}
+
+footer ul li a,
+footer p,
+footer p a {
+    text-decoration: none;
+    color: white;
 }
