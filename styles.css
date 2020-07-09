@@ -109,6 +109,93 @@ header:hover .back-drop {
     display: block;
 }
 
+.bun {
+    display: none;
+    z-index: 9999;
+}
+
+.hamburger {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    right: 52.5px;
+    top: 52.5px;
+    display: none;
+}
+
+.toggler {
+    position: absolute;
+    right: 52.5px;
+    top: 52.5px;
+    z-index: 2;
+    cursor: pointer;
+    width: 40px;
+    height: 45px;
+    /* opacity: 0; */
+}
+
+.toggler:checked ~ .menu {
+    visibility: visible;
+}
+
+.toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: 0.75s;
+}
+
+.toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease 0.4s;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 92;
+}
+
+.menu > div {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+}
+
+.menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
 .comming {
     text-align: center;
 }
@@ -151,19 +238,20 @@ footer {
     width: 100%;
     margin: 0 auto;
     float: left;
+    position: relative;
 }
 
 .foot-list {
     border-bottom: rgba(255, 255, 255, 0.4) solid 1px;
 }
 
-footer ul {
+.foot-list ul {
     width: 80%;
     margin: 0 auto;
     display: flex;
 }
 
-footer ul li {
+.foot-list ul li {
     width: 20%;
     text-align: center;
     list-style: none;
@@ -192,4 +280,50 @@ footer p a {
 }
 
 .foot-social {
+    position: absolute;
+    right: 45px;
+    bottom: 45px;
+}
+
+.foot-social li {
+    display: inline-block;
+    margin: 8px;
+}
+
+@media only screen and (max-width: 1220px) {
+    nav ul li a {
+        padding: 60px 50px;
+        font-size: 18px;
+    }
+    nav ul li ul li a {
+        padding: 10px 41px;
+    }
+}
+
+@media only screen and (max-width: 844px) {
+    nav ul {
+        display: none;
+    }
+    header:hover ul li ul,
+    header:hover .back-drop {
+        display: none;
+    }
+    .foot-list ul {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .foot-list ul li {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: rgba(255, 255, 255, 0.4) solid 1px;
+    }
+    .foot-social {
+        position: relative;
+        right: 0;
+        bottom: 0;
+    }
+    .bun {
+        display: block;
+    }
 }

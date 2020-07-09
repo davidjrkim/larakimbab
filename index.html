@@ -7,8 +7,30 @@
         <title>라라김밥 | Lara Kimbab</title>
         <link rel="stylesheet" href="styles.css" />
         <script src="https://kit.fontawesome.com/31648eb95d.js" crossorigin="anonymous"></script>
+        <!-- Start -->
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <script type="text/javascript" src="engine1/jquery.js"></script>
+        <!-- End -->
     </head>
     <body>
+        <div class="menu-wrap">
+            <div class="bun">
+                <input type="checkbox" class="toggler" />
+                <i class="fas fa-bars hamburger"></i>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="">라라김밥 소개</a></li>
+                            <li><a href="">메뉴</a></li>
+                            <li><a href="">예약</a></li>
+                            <li><a href="">위치/연락정보</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="back-drop"></div>
         <header>
             <div class="back-drop"></div>
@@ -49,7 +71,39 @@
                 </ul>
             </nav>
         </header>
-        <main></main>
+
+        <main>
+            <!-- Start -->
+
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li>
+                            <a href="kimbab-menu.html" target="_self"><img src="data1/images/2.png" alt="" title="" id="wows1_0" /></a>
+                        </li>
+                        <li>
+                            <a href="ramen-menu.html" target="_self"><img src="data1/images/_0.png" alt="" title="" id="wows1_1" /></a>
+                        </li>
+                        <li>
+                            <a href="topoki-menu.html" target="_self"><img src="data1/images/topokki.png" alt="" title="" id="wows1_2" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div>
+                        <a href="#" title=""><span>1</span></a>
+                        <a href="#" title=""><span>2</span></a>
+                        <a href="#" title=""><span>3</span></a>
+                    </div>
+                </div>
+                <div class="ws_script" style="position: absolute; left: -99%;"><a href="http://wowslider.net">jquery image slider</a> by WOWSlider.com v8.8m</div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+
+            <!-- End -->
+        </main>
         <footer>
             <div class="inner-fooder">
                 <div class="foot-list">
@@ -62,6 +116,18 @@
                     </ul>
                 </div>
                 <div class="foot-info">
+                    <ul class="foot-social">
+                        <li>
+                            <a href="https://www.instagram.com/larakimbab/" target="_blank"><i class="fab fa-instagram-square" style="font-size: 40px; color: rgba(255, 255, 255, 0.4);"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/larakimbab" target="_blank"><i class="fab fa-twitter-square" style="font-size: 40px; color: rgba(255, 255, 255, 0.4);"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/%E1%84%85%E1%85%A1%E1%84%85%E1%85%A1%E1%84%80%E1%85%B5%E1%86%B7%E1%84%87%E1%85%A1%E1%86%B8-Lara-kimbab-101363818280946/?ref=bookmarks" target="_blank"><i class="fab fa-facebook-square" style="font-size: 40px; color: rgba(255, 255, 255, 0.4);"></i></a>
+                        </li>
+                    </ul>
+
                     <p>대표 : 김다윗 | <a href="https://store.naver.com/restaurants/detail?id=1918624810" class="clickable" target="_blank">서귀포시 안덕면 사계남로216번길 31</a> | <a href="tel:064-792-3927" class="clickable">T.064.792.3927</a></p>
                     <p>
                         Copyright ©
@@ -73,17 +139,6 @@
                         라라김밥. All rights reserved.
                     </p>
                 </div>
-                <ul class="foot-social">
-                    <li>
-                        <a href="https://www.instagram.com/larakimbab/" target="_blank"><i class="fab fa-instagram-square" style="font-size: 60px; color: rgb(255, 255, 255);"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/larakimbab" target="_blank"><i class="fab fa-twitter-square" style="font-size: 60px; color: rgb(255, 255, 255);"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/%E1%84%85%E1%85%A1%E1%84%85%E1%85%A1%E1%84%80%E1%85%B5%E1%86%B7%E1%84%87%E1%85%A1%E1%86%B8-Lara-kimbab-101363818280946/?ref=bookmarks" target="_blank"><i class="fab fa-facebook-square" style="font-size: 60px; color: rgb(255, 255, 255);"></i></a>
-                    </li>
-                </ul>
             </div>
         </footer>
     </body>
