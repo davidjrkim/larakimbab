@@ -392,6 +392,16 @@ main {
     color: rgb(189, 30, 109);
 }
 
+.sub-title {
+    text-align: center;
+}
+
+.sub-title h3 {
+    margin: 20px;
+    font-size: 40px;
+    font-family: "MapoPeacefull";
+}
+
 footer {
     background-color: black;
     width: 100%;
@@ -450,6 +460,53 @@ footer p a {
     margin: 8px;
 }
 
+.menu-main {
+    width: 100%;
+    background-color: #fde5e3;
+}
+
+.menu-main ul {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu-main ul li {
+    width: 33.3%;
+    text-align: center;
+    list-style: none;
+}
+
+.menu-main ul li a {
+    width: 33.3%;
+    text-align: center;
+    list-style: none;
+    background-color: white;
+}
+
+.menu-img img {
+    width: 40%;
+}
+
+/* .menu-main > div {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.menu-box {
+    background-color: white;
+    width: 33.3%;
+    margin: 50px 25px;
+}
+
+.menu-box img {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+} */
+
 @media only screen and (max-width: 1220px) {
     nav ul li a {
         padding: 60px 50px;
@@ -489,7 +546,7 @@ footer p a {
     .menu-wrap {
         display: inline-block;
     }
-    .foot-social-i {
+    .foot-social li a .fab {
         transform: scale(1.6);
         padding: 10px;
     }
@@ -498,8 +555,13 @@ footer p a {
     }
 }
 
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 450px) {
     .sub-nav ul li a {
         padding: 30px 12%;
+        font-size: 15px;
+    }
+    .sub-nav ul .fas {
+        transform: scale(0.8);
+        margin-top: 3px !important;
     }
 }
