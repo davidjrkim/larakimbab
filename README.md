@@ -1,7 +1,9 @@
 # webSite LaraKimbab
 
+## by David
+
 manjijimaseyo PLZ
 
 the dev of the kimbab pleace LaraKimbab
 
-[The webSite](https://larakimbab.com/?target=_blank)
+[The webSite](https://larakimbab.com/)
