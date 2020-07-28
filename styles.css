@@ -463,6 +463,8 @@ footer p a {
 .menu-main {
     width: 100%;
     background-color: #fde5e3;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .menu-main ul {
@@ -475,18 +477,39 @@ footer p a {
     width: 33.3%;
     text-align: center;
     list-style: none;
+    background-color: white;
+    margin: 20px;
+    padding: 55px;
+    border-bottom: 4px solid pink;
+    /* border-right: 3px solid pink; */
+    border-radius: 15px 15px 15px 15px;
+    transition: all 0.4s ease;
+}
+
+.menu-main ul li:hover {
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.37);
+    transform: scale(1.03);
 }
 
 .menu-main ul li a {
     width: 33.3%;
     text-align: center;
     list-style: none;
-    background-color: white;
-    padding: ;
+    text-decoration: none;
 }
 
 .menu-img img {
-    width: 40%;
+    width: 100%;
+}
+
+.menu-info p {
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "MapoPeacefull";
+    font-size: 25px;
+    color: #681e56;
 }
 
 /* .menu-main > div {
