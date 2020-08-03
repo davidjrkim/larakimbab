@@ -542,6 +542,9 @@ footer p a {
     .sub-nav ul {
         width: 60%;
     }
+    .menu-main ul {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 844px) {
@@ -576,6 +579,17 @@ footer p a {
     }
     .sub-nav ul {
         width: 90%;
+    }
+    .menu-main {
+        text-align: center;
+    }
+    .menu-main ul {
+        display: inline-block;
+        width: 100%;
+    }
+    .menu-main ul li {
+        width: 50%;
+        margin: 20px auto;
     }
 }
 
