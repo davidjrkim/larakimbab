@@ -1,15 +1,13 @@
-# webSite LaraKimbab
+# LaraKimbab
 
-<<<<<<< HEAD
-## by David
+<img src="img/lara-favcon.png" width="150px"/>
 
-manjijimaseyo PLZ
+this is the source code of larakimbab.com
 
-the dev of the kimbab pleace LaraKimbab
+---
 
-[The webSite](https://larakimbab.com/)
-=======
-# manjijimaseyo PLZ
+## Descripton
 
-https://davidjrkim.github.io/larakimbab/
->>>>>>> dev
+I dont know why i'm trying to make this into an open-source project but if you see any bugs or have any sugestions please do
+
+<img src="img/lara.gif" width="100%"/>
