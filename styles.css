@@ -312,6 +312,13 @@ main {
     min-height: 70vh;
 }
 
+#abc {
+    font-size: 40px;
+    color: #d169b3;
+    margin: 20px;
+    font-family: "MapoPeacefull";
+}
+
 .para {
     position: absolute;
     margin: 0 auto;
