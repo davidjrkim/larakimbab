@@ -16,8 +16,8 @@
     .wrap * {padding: 0;margin: 0;}
     .wrap .info {width: 286px;height: 120px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
     .wrap .info:nth-child(1) {border: 0;box-shadow: 0px 1px 2px #888;}
-    .info .title {padding: 5px 0 0 10px;height: 30px;background: #eee;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
-    .info .close {position: absolute;top: 10px;right: 10px;color: #888;width: 17px;height: 17px;background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');}
+    .info .title {color: #fff; padding: 5px 0 0 10px;height: 30px;background:  #fc81d9;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
+    .info .close {position: absolute;top: 10px;right: 10px;background-color: #fff;width: 17px;height: 17px;background: url('img/overlay_close.png');}
     .info .close:hover {cursor: pointer;}
     .info .body {position: relative;overflow: hidden;}
     .info .desc {position: relative;margin: 13px 0 0 90px;height: 75px;}
@@ -78,7 +78,7 @@
                         <a href="#">위치/연락정보</a>
                         <ul>
                             <li><a href="directions.html">오시는길</a></li>
-                            <li><a href="directions.html">연락정보</a></li>
+                            <li><a href="directions.html#contact">연락정보</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -86,14 +86,14 @@
         </header>
 
         <main>
-            <h3 id="abc">라라김밥 오시는길</h3>
+            <h3 class="title-h3">라라김밥 오시는길</h3>
             <div id="map" style="width:100%;height:500px;"></div>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6ff80e0ab353e14ccfc6a8478b7cd146"></script>
 <script>
 var mapContainer = document.getElementById('map'), // 지도의 중심좌표
     mapOption = { 
-        center: new kakao.maps.LatLng(33.2337409819086, 126.3098688932595), // 지도의 중심좌표
+        center: new kakao.maps.LatLng(33.2336409819086, 126.3098688932595), // 지도의 중심좌표
         level: 3 // 지도의 확대 레벨
     }; 
 
@@ -151,6 +151,8 @@ function setZoomable(zoomable) {
 }
 setZoomable(false)
 </script>
+
+<h3 id="contact" class="title-h3">연락 정보</h3>
         </main>
 
         <footer>
