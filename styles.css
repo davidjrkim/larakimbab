@@ -566,6 +566,8 @@ footer p a {
 
 .menu-img img {
     width: 100%;
+    -webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.4));
 }
 
 .menu-info p {
