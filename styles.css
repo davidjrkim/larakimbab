@@ -17,6 +17,10 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+}
+
 header {
     width: 100%;
     background-color: #fc81d9;
@@ -76,6 +80,7 @@ nav ul li a:hover {
 main {
     background-color: #fd82d5;
     z-index: -9999;
+    height: 100%;
 }
 
 .comming {
@@ -92,7 +97,7 @@ main {
     left: 0;
     right: 0;
     text-align: center;
-    top: 450px;
+    top: 510px;
 }
 
 .para p,
@@ -108,7 +113,7 @@ main {
     left: 0;
     right: 0;
     text-align: center;
-    top: 20px;
+    top: 94px;
 }
 
 .logo-max img {
