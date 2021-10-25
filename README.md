@@ -2,7 +2,7 @@
 
 <img src="img/lara-favcon.png" width="150px"/>
 
-this is the source code of larakimbab.com
+this is the source code of [larakimbab.com]
 
 ### LaraKimbab Socials:
 
@@ -25,3 +25,4 @@ I dont know why i'm trying to make this into an open-source project but if you s
 [twitter]: https://twitter.com/larakimbab
 [youtube]: https://www.youtube.com/channel/UCv9okdyokZyykD-Onf0u4lQ?guided_help_flow=5
 [instagram]: https://www.instagram.com/larakimbab/
+[larakimbab.com]: https://blissful-feynman-c106bb.netlify.app/
