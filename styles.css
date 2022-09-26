@@ -125,3 +125,8 @@ main {
 .logo-max img:hover {
     transform: scale(1.1) rotate(-10deg);
 }
+
+.egg {
+    text-decoration: none;
+    color: #fd82d5;
+}
